@@ -1,0 +1,150 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-main: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, "Apple Symbols";
+
+  /* COLORS */
+  --headline-color: oklab(0.963963 -0.000228554 -0.00283051);
+  --form-background: oklab(0.321088 -0.000220731 -0.00934622);
+  --normal-text-color: oklab(0.786807 -0.0025776 -0.0110238);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../assets/bg.svg");
+  font-family: var(--font-main);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+/* GENERIC TAGS STYLING */
+
+h1,
+p {
+  line-height: 1.25;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+
+  color: var(--headline-color);
+}
+
+p {
+  line-height: 20px;
+  font-family: inherit;
+  color: var(--normal-text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* PAGE */
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.svg-logo-text {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authBox {
+  background: var(--form-background);
+  width: 784px;
+  padding: 32px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: nowrap;
+
+  .main-form {
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .main-form-header {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+    }
+  }
+
+  .right-section {
+    width: 176px;
+    height: 176px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    image-rendering: pixelated;
+
+    .qr-code-wrapper {
+      position: relative;
+      width: 160px;
+      height: 160px;
+
+      .qr-code {
+        position: absolute;
+      }
+    }
+    .qr-code-logo {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+      }
+    }
+  }
+}
+
+/* .login-page {
+  background: url("../assets/bg.svg");
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+} */
