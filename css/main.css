@@ -271,19 +271,19 @@ a:hover {
   height: 100%;
   margin: 0;
 }
-.pulsingEllipsis {
+.spinner .pulsingEllipsis {
   height: auto;
   width: 28px;
   display: flex;
   justify-content: center;
   position: relative;
 }
-.inner {
+.spinner .inner {
   align-items: center;
   contain: paint;
 }
 
-.pulsingEllipsis .item {
+.spinner .pulsingEllipsis .item {
   animation: spinner-pulsing-ellipsis 1.4s infinite ease-in-out;
   width: 6px;
   height: 6px;
@@ -292,6 +292,39 @@ a:hover {
   border-radius: 3px;
   display: inline-block;
   opacity: 0.3;
+}
+
+/* Qr code spinner */
+.spinner.qrCode-spinner {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  image-rendering: pixelated;
+}
+
+.spinner.qrCode-spinner .inner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  contain: paint;
+}
+
+.spinner.qrCode-spinner .item {
+  background-color: var(--wandering-cubes-color);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: spinner-wandering-cubes 1.8s infinite ease-in-out;
+}
+
+.spinner.qrCode-spinner .item:last-child {
+  animation-delay: -0.9s;
 }
 
 /* KEYFRAMES */
@@ -307,5 +340,20 @@ a:hover {
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+@keyframes spinner-wandering-cubes {
+  25% {
+    transform: translatex(22px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    transform: translatex(22px) translatey(22px) rotate(-180deg);
+  }
+  75% {
+    transform: translatex(0) translatey(22px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(-360deg);
   }
 }
