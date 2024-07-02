@@ -33,3 +33,8 @@
   width: 100%;
   height: 100%;
 }
+
+.hidden {
+  pointer-events: none !important;
+  display: none !important;
+}
