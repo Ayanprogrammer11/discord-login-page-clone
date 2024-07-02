@@ -32,3 +32,7 @@ function animateEllipsis() {
 }
 
 loginButton.addEventListener("click", animateEllipsis);
+
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+});

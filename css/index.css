@@ -1,3 +1,28 @@
+:root {
+  --font-main: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, "Apple Symbols";
+
+  /* COLORS */
+  --headline-color: oklab(0.963963 -0.000228554 -0.00283051);
+  --form-background: oklab(0.321088 -0.000220731 -0.00934622);
+  --normal-text-color: oklab(0.786807 -0.0025776 -0.0110238);
+  --input-bg: oklab(0.23892 0.000131361 -0.00592163);
+  --input-color: oklab(0.899401 -0.00192499 -0.00481987);
+  --label-color: oklab(0.786807 -0.0025776 -0.0110238);
+  --required-color: rgb(242, 63, 66);
+  --btn-bg: rgb(88, 101, 242);
+  --btn-bg-hover: rgb(71, 82, 196);
+  --link-color: oklab(0.700834 -0.0780351 -0.1469);
+
+  --need-account: oklab(0.686679 -0.00398019 -0.0150182);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "gg sans";
   font-style: normal;
