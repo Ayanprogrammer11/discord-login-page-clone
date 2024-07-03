@@ -7,7 +7,6 @@ A perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
 ## Features
 
 - **Accurate UI**: An exact clone of the Discord login page.
-- **Interactive Elements**: Functional input fields and buttons.
 - **Clean Code**: Well-structured and commented code for easy understanding.
 
 ## Installation
