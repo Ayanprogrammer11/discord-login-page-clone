@@ -73,3 +73,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by the original [Discord login page](https://discord.com/login).
 
+
+**Disclaimer:** This project is not affiliated with, endorsed by, or connected to Discord in any way. It is purely a clone for educational purposes.
+
