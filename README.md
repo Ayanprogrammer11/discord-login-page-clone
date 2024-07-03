@@ -2,7 +2,7 @@
 
 A perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
 
-![Discord Login Page Clone Screenshot](TODO)
+![Discord Login Page Clone Screenshot](./dsicord-login-page-clone-screenshot.png)
 
 ## Features
 
