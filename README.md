@@ -7,6 +7,7 @@ A perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
 ## Features
 
 - **Accurate UI**: An exact clone of the Discord login page.
+- **Qr Code Refresh**: *Simulation* of QR Code refresh with same smooth animations just like in original vesion.
 - **Clean Code**: Well-structured and commented code for easy understanding.
 
 ## Installation
