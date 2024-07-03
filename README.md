@@ -66,8 +66,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - **Author**: Ayan Liaqat
-- **GitHub**: [@yourusername](https://github.com/Ayanprogrammer11)
-- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+- **GitHub**: [@Ayanprogrammer11](https://github.com/Ayanprogrammer11)
+- **LinkedIn**: [@ayan-liaqat-5259882b4](https://www.linkedin.com/in/ayan-liaqat-5259882b4/)
 
 ## Acknowledgements
 
