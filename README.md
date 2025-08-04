@@ -1,78 +1,97 @@
 # Discord Login Page Clone
 
-A perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
+A pixel-perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
 
-![Discord Login Page Clone Screenshot](./dsicord-login-page-clone-screenshot.png)
+![Discord Login Page Clone Screenshot](./discord-login-page-clone-screenshot.png)
 
-## Features
+## 🔥 Features
 
-- **Accurate UI**: An exact clone of the Discord login page.
-- **Qr Code Refresh**: *Simulation* of QR Code refresh with same smooth animations just like in original vesion.
-- **Clean Code**: Well-structured and commented code for easy understanding.
+- 🎯 **Pixel-perfect UI** – Faithfully replicates Discord’s login page layout and design.
+- 🔁 **Animated QR Code Refresh** – Simulates the QR refresh behavior with smooth animations.
+- 🧼 **Clean, Commented Code** – Easy to read and modify for learning or reuse.
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/Ayanprogrammer11/discord-login-page-clone.git
-    cd discord-login-page-clone
-    ```
+   ```sh
+   git clone https://github.com/Ayanprogrammer11/discord-login-page-clone.git
+   cd discord-login-page-clone
+````
 
 2. **Open the `index.html` file in your browser:**
-    ```sh
-    open index.html
-    ```
 
-## Usage
+   * On **Windows**:
+
+     ```sh
+     start index.html
+     ```
+
+   * On **macOS**:
+
+     ```sh
+     open index.html
+     ```
+
+   * On **Linux**:
+
+     ```sh
+     xdg-open index.html
+     ```
+
+## 🛠️ Usage
 
 1. **Open the project in your favorite code editor:**
-    ```sh
-    code .
-    ```
 
-2. **Modify the files as needed to fit your project requirements.**
+   ```sh
+   code .
+   ```
 
-## Screenshots
+2. **Customize or experiment with the code as needed.**
+   Feel free to use it as a learning resource or UI reference.
 
-![Login Page](path_to_login_screenshot)
+## 🌟 Contributing
 
-## Contributing
+1. **Fork the repository**
+   Click the “Fork” button on the top right.
 
-1. **Fork the repository:**
-    Click the "Fork" button at the top right of this page.
+2. **Create a feature branch:**
 
-2. **Create a branch:**
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
 
 3. **Commit your changes:**
-    ```sh
-    git commit -m 'Add some feature'
-    ```
 
-4. **Push to the branch:**
-    ```sh
-    git push origin feature/your-feature-name
-    ```
+   ```sh
+   git commit -m 'Add some feature'
+   ```
 
-5. **Open a pull request:**
-    Click the "New Pull Request" button on your fork's GitHub page.
+4. **Push the branch:**
 
-## License
+   ```sh
+   git push origin feature/your-feature-name
+   ```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+5. **Open a pull request** on GitHub.
 
-## Contact
+## 📄 License
 
-- **Author**: Ayan Liaqat
-- **GitHub**: [@Ayanprogrammer11](https://github.com/Ayanprogrammer11)
-- **LinkedIn**: [@ayan-liaqat-5259882b4](https://www.linkedin.com/in/ayan-liaqat-5259882b4/)
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## 👤 Author
 
-- Inspired by the original [Discord login page](https://discord.com/login).
+* **Name**: Ayan Liaqat
+* **GitHub**: [@Ayanprogrammer11](https://github.com/Ayanprogrammer11)
 
+## 🙌 Acknowledgements
 
-**Disclaimer:** This project is not affiliated with, endorsed by, or connected to Discord in any way. It is purely a clone for educational purposes.
+* Inspired by the original [Discord Login Page](https://discord.com/login)
 
+---
+
+> ⚠️ **Disclaimer**
+> This project is **not affiliated with, endorsed by, or connected to Discord** in any way.
+> It is a **frontend clone made purely for educational and non-commercial purposes.**
+> Do not use it for phishing or impersonation — doing so is unethical and illegal.
+
+```
