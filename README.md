@@ -16,7 +16,7 @@ A pixel-perfect clone of the Discord login page built using HTML, CSS, and JavaS
    ```sh
    git clone https://github.com/Ayanprogrammer11/discord-login-page-clone.git
    cd discord-login-page-clone
-````
+   ```
 
 2. **Open the `index.html` file in your browser:**
 
