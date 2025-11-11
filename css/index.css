@@ -3,19 +3,19 @@
     sans-serif, "Apple Symbols";
 
   /* COLORS */
-  --headline-color: oklab(0.963963 -0.000228554 -0.00283051);
-  --form-background: oklab(0.321088 -0.000220731 -0.00934622);
-  --normal-text-color: oklab(0.786807 -0.0025776 -0.0110238);
-  --input-bg: oklab(0.23892 0.000131361 -0.00592163);
-  --input-color: oklab(0.899401 -0.00192499 -0.00481987);
-  --label-color: oklab(0.786807 -0.0025776 -0.0110238);
-  --required-color: rgb(242, 63, 66);
+  --headline-color: oklab(0.999994 0.0000455678 0.0000200868);
+  --form-background: oklab(0.35016 0.00197881 -0.0119994);
+  --normal-text-color: oklab(0.906424 -0.000235766 -0.0028885);
+  --input-bg: oklab(0 0 0 / 0.2);
+  --input-color: oklab(0.906424 -0.000235766 -0.0028885);
+  --label-color: oklab(0.999994 0.0000455678 0.0000200868);
+  --required-color: oklab(0.772044 0.119344 0.0515409);
   --btn-bg: rgb(88, 101, 242);
   --btn-bg-hover: rgb(71, 82, 196);
   --wandering-cubes-color: rgb(121, 131, 245);
-  --link-color: oklab(0.700834 -0.0780351 -0.1469);
+  --link-color: oklab(0.747617 0.00671133 -0.126112);
 
-  --need-account: oklab(0.686679 -0.00398019 -0.0150182);
+  --need-account: oklab(0.751834 0.00131807 -0.008479);
 }
 
 * {

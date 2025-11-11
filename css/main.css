@@ -48,14 +48,19 @@ input {
   background: var(--input-bg);
   font-family: inherit;
   color: var(--input-color);
-  border-radius: 3px;
-  padding: 10px;
-  border: none;
+  border-radius: 8px;
+  padding: 12px 10px;
+  border: 1px solid oklab(0.678888 0.00325716 -0.011175 / 0.2);
   outline: none;
-  height: 40px;
+  height: 44px;
   font-size: 16px;
   font-weight: 400;
   width: 100%;
+  transition: border-color 0.2s ease-in-out;
+
+  &:focus {
+    border: 1px solid oklab(0.74783 -0.0289609 -0.111271);
+  }
 }
 
 a {
@@ -96,7 +101,7 @@ a:hover {
   width: 784px;
   /* width: 100%; */
   padding: 32px;
-  border-radius: 5px;
+  border-radius: 8px;
   display: none;
   /* animation: animateAuthBox 1s linear; */
 
@@ -138,21 +143,26 @@ a:hover {
 
       h2 {
         margin-bottom: 8px;
-        line-height: 1.25;
+        line-height: 30px;
         font-weight: 600;
         font-size: 24px;
       }
       p {
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.25;
+        line-height: 20px;
+        width: 240px;
+
+        strong {
+          font-weight: 600;
+        }
       }
       a {
         padding: 2px 16px;
         margin-top: 15px;
         margin-bottom: 15px;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 400;
       }
     }
   }
@@ -192,9 +202,9 @@ a:hover {
 
           label {
             color: var(--label-color);
-            font-weight: 700;
-            font-size: 12px;
-            line-height: 1.3333333333333333;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
 
             span {
               color: var(--required-color);
@@ -209,7 +219,7 @@ a:hover {
 
         a {
           font-size: 14px;
-          font-weight: 500;
+          font-weight: 400;
         }
       }
 
@@ -219,10 +229,10 @@ a:hover {
           width: 416px;
           background: var(--btn-bg);
           color: #fff;
-          padding: 2px 16px;
-          border: none;
+          padding: 7px 15px;
+          border: 1px solid rgba(255, 255, 255, 0.08);
           outline: none;
-          border-radius: 3px;
+          border-radius: 8px;
           line-height: 24px;
           font-family: inherit;
           font-size: 16px;
@@ -248,7 +258,7 @@ a:hover {
 
         a {
           font-size: 14px;
-          font-weight: 500;
+          font-weight: 400;
         }
         span {
           color: var(--need-account);

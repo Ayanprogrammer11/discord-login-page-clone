@@ -2,15 +2,41 @@
 
 A pixel-perfect clone of the Discord login page built using HTML, CSS, and JavaScript.
 
-![Discord Login Page Clone Screenshot](./discord-login-page-clone-screenshot.png)
 
-## 🔥 Features
+## 🆕 Version 2.0
 
-- 🎯 **Pixel-perfect UI** – Faithfully replicates Discord’s login page layout and design.
+**Everything has been updated to match the Discord login page exactly yet again!** This update includes:
+
+- **Refined color palette** – Updated to match Discord's latest design system
+- **Enhanced input styling** – Modern rounded corners (8px), improved borders, and focus states
+- **Improved typography** – Updated font weights, sizes, and line heights for better accuracy
+- **Better form labels** – Changed from uppercase to proper case for improved readability
+- **Polished UI details** – Refined spacing, padding, and visual consistency
+
+## 📸 Side-by-Side Comparison
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Clone</strong><br/>
+        <img src="./discord-login-page-clone-screenshot.png" alt="QR Code Discord Logo" width="400"/>
+      </td>
+      <td align="center">
+        <strong>Original Discord Login</strong><br/>
+        <img src="./discord-login-original.png" alt="Original Discord Login Page" width="400"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+##  Features
+
+- 🎯 **Pixel-perfect UI** – Faithfully replicates Discord's login page layout and design.
 - 🔁 **Animated QR Code Refresh** – Simulates the QR refresh behavior with smooth animations.
 - 🧼 **Clean, Commented Code** – Easy to read and modify for learning or reuse.
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository:**
    ```sh
