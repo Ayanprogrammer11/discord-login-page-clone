@@ -97,7 +97,8 @@ a:hover {
   /* width: 100%; */
   padding: 32px;
   border-radius: 5px;
-  height: max-content;
+  display: none;
+  /* animation: animateAuthBox 1s linear; */
 
   display: flex;
   justify-content: flex-start;
